@@ -42,6 +42,10 @@
 <p>
 I am adding this extra line
 </p>
+<p>
+And this line as well
+</p>
+
 		<ul>
 			<li>
 				<a id="simpleLink" class="textLink" href="<c:url value="/simple" />">GET /simple</a>
@@ -230,7 +234,7 @@ I am adding this extra line
 					</form>
 				</li>
 				<li>
-					<a id="writeXmlAccept" class="writeXmlLink" href="<c:url value="/messageconverters/xml" />">Write XML via Accept=application/xml</a>
+				<a id="writeXmlAccept" class="writeXmlLink" href="<c:url value="/messageconverters/xml" />">Write XML via Accept=application/xml</a>
 				</li>
                 <li>
                     <a id="writeXmlExt" class="writeXmlLink" href="<c:url value="/messageconverters/xml.xml" />">Write XML via ".xml"</a>
